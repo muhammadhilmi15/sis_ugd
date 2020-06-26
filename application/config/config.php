@@ -17,7 +17,7 @@ $config['modules_locations'] = array(
 |
 */
 
-$config['base_url']	='http://localhost/brigd';
+$config['base_url']	='http://localhost/sis-ugd/';
 
 $config['kkm']=75;
 $config['amatbaik']=90;
@@ -52,7 +52,7 @@ $config['index_page'] = '';
 | 'ORIG_PATH_INFO'	Uses the ORIG_PATH_INFO
 |
 */
-$config['uri_protocol']	= 'AUTO';
+$config['uri_protocol']	= 'REQUEST_URI';
 
 /*
 |--------------------------------------------------------------------------
